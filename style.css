@@ -1,0 +1,101 @@
+
+.main-body {
+    font-family: Arial, Helvetica, sans-serif;
+    flex-direction: column;
+}
+
+#container {
+    display: flex;
+    border: 2px solid grey;
+    height: 800px;
+}
+
+    nav { 
+        flex: 0 1 20%;
+        display: flex;
+        border: 2px solid grey;  
+        flex-direction: column;          
+    }
+
+    a:hover {
+        background-color: rgb(231, 49, 101);
+    }
+
+    section { 
+        flex: 0 1 60%;
+        display: flex;
+        border: 2px solid grey;
+        flex-direction: row;
+    }
+
+    aside { 
+        flex: 0 1 20%;
+        display: flex;
+        border: 2px solid grey;       
+    }
+
+header {
+    display: flex;
+    border: 2px solid grey;
+    height: 50px;
+    font-size: x-large;   
+}
+
+footer {
+    position: absolute;
+    bottom: 1;
+}
+
+#Rainier {
+    height: 50%;
+    width: 60%;
+    margin: 5px 5px 5px 5px;
+    padding: 5px;
+    border: 2px;
+}
+
+#aside {
+    flex-direction: column;
+}
+
+#Olympia {
+    height: 50%;
+    width: 70%;
+    margin: 5px 5px 5px 5px;
+    padding: 5px;
+    border: 2px;
+}
+
+#Seattle {
+    height: 50%;
+    width: 70%;
+    margin: 5px 5px 5px 5px;
+    padding: 5px;
+    border: 2px;
+}
+
+#Richland {
+    height: 50%;
+    width: 70%;
+    margin: 5px 5px 5px 5px;
+    padding: 5px;
+    border: 2px;
+}
+
+table, th, td, caption {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+h3, h4 {
+    color: brown;
+}
+
+table {
+    float: left;
+}
+
+h4 {
+    position: relative;
+    left: 400px;
+}
